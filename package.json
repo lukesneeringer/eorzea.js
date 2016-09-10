@@ -1,0 +1,37 @@
+{
+  "name": "eorzea",
+  "version": "0.1.0",
+  "description": "A helper library for writing tools for Final Fantasy XIV.",
+  "author": "Luke Sneeringer <luke@sneeringer.com>",
+  "homepage": "https://github.com/lukesneeringer/eorzea.js",
+  "keywords": [
+    "ffxiv",
+    "eorzea"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukesneeringer/eorzea.js",
+    "web": "https://github.com/lukesneeringer/eorzea.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lukesneeringer/eorzea.js/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "strftime": ">=0.9.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  }
+}
